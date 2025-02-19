@@ -1,0 +1,628 @@
+
+*{margin:0;padding:0;}
+body{
+	font-family:Arial, sans-serif, Time News Roman;
+	line-height:1.6;
+	background-color:#f4f4f4;
+	color:#1A1A1A;
+}
+/*------------------------------------HEADER------------------------------------*/
+
+
+header, footer{
+	background-color:#71B271;
+	height:80px;
+}
+#barra{
+	background:#71B271;
+	height:85px;
+	box-shadow:0 0 10px 0 rgba(0,0,0,0.4);
+	position:fixed;
+/*	width:100%;	*/
+	width:1500px;
+}
+#logo{
+	float:left;
+	width:50px;
+}
+.container{
+	height:100%;
+	display:flex;
+	justify-content:center;
+}
+.item{
+	padding-top:20px;
+	width:14%;
+	height:50px;
+	color:white;
+	text-align:center;
+	font-size:1.2em;
+}
+.musica{
+	margin-left:5px;
+}
+.registro{
+	margin-right:5px;
+}
+.container div a{
+	color:black;
+	text-decoration:none;
+	padding:38px 30px;
+}
+.container div a:hover{
+	background:black;
+	color:white;
+}
+
+/*------------------------------------MAIN------------------------------------*/
+main{
+	height:4500px;
+}
+#bienvenida{
+	text-align:center;
+	padding:100px 100px 100px 100px;
+}
+#bienvenida p{margin-top:10px;}
+.boxtipouno{
+	background-color:#71B271;
+	height:600px;
+	width:1200px;
+	margin:0 auto;
+}
+.subuno{
+	padding:0.3em 0 0 1em;
+	color:#f4f4f4;
+}
+.containerin{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.containerin h3{color:#f4f4f4;}
+.boxtipouno .containerin div{
+	width:20em;
+	padding:1em;
+}
+.boxtipouno div img{
+	width:20em;
+}
+.boxtipodos{
+	padding:3em 5em;
+	color:rgb(103, 103, 103);
+}
+.boxtipodos div{
+	margin:1em 5em;
+}
+.boxtipodos img{
+	width:22em;
+	float:left;
+	margin-right:1em;
+}
+.boxtipodos h3, .boxtipodos p{
+	margin:0.4em;
+}
+.boxtipodos h3, .boxtipodos h2, .boxtipotres h2, .boxtipotres h3{color:#71B271;}
+.boxtipodos a{
+	margin-left:20%;
+}
+.botonverde{
+	display:inline-block;
+	background-color:inherit;
+	border:1px solid #8f8f9d;
+	height:2em;
+	width:9em;
+	text-align:center;
+	padding-top:0.6em;
+	text-decoration:none;
+	color:inherit;
+}
+.botonverde:hover{background-color:#71B271;color:#f4f4f4;}
+.i{
+	font-style:italic;
+	font-size:0.7em;
+}
+.botonblanco{
+	margin-top:2em;
+	background-color:#f4f4f4;
+}
+.botonblanco:hover{
+	background-color:#1A1A1A;
+}
+.act{
+	height:500px;
+}
+.boxtipotres{
+	padding:3em 5em;
+}
+#reseñas{
+	display:flex;
+	flex-direction:row;
+	border:1px solid #8f8f9d;	
+}
+.reseña{
+	width:900px;
+	padding:1em;
+	color:rgb(103, 103, 103);
+	font-size: 0.8em;
+}
+.reseña p{
+	margin:0.5em 0;
+}
+.cajavermas{
+	width:100%;
+	text-align:center;
+	margin-top:1em;
+}
+#encuestas{
+	background-color:#71B271;
+	padding:2em 0;
+	height:10em;
+	display:flex;
+	flex-direction:row;
+}
+#encuestas div{
+	text-align:center;
+	margin:0 auto;
+}
+.subtblanc{
+	text-decoration:none;
+	color:inherit;
+}
+.subtblanc:hover{color:#f4f4f4;}
+#suscribete{
+	height:14em;
+	text-align:center;
+	padding:2em;
+	color:#676767;
+}
+#suscribete h2{
+	font-size:3em;
+}
+#suscribete h3{
+	font-weight:normal;
+}
+#suscribete form input{
+	width:60%;
+	height:40px;
+}
+#suscribete form div a{
+	display:inline-block;
+	border:1px solid #8f8f9d;
+	text-decoration:none;
+	color:inherit;
+	font-size:1.2em;
+	padding:0.5em;
+	margin-top:0.5em;
+	width:58.5%;
+}
+#equipo{
+	background-color:#71B271;
+	height:1300px;
+}
+#equipocaj{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	background-color:#f4f4f4;
+	border:1px solid #8f8f9d;
+	width:1000px;
+	margin:1em auto;
+}
+#equipo div{
+	padding:2em;
+}
+
+
+.space{
+	height:10px;
+}
+/*------------------------------------REGISTRO------------------------------------*/
+#formulario1{
+	background-color:#71B271;
+	width:800px;
+	height:530px;
+	margin:30px auto;
+	text-align:center;
+}
+.formcent{padding:0 190px;}
+#titulo{
+	color:white;
+	font-size:2em;
+	text-align:center;
+	background-color:#1A1A1A;
+	display:block;
+	width:405px;
+	padding:10px 0;
+/*	margin:0 auto;		*/
+}
+#name{
+	width:400px;
+	height:40px;
+	margin-top:30px;
+	display:block;
+}
+#email{
+	width:400px;
+	height:40px;
+	margin-top:30px;
+	display:block;
+}
+#password{
+	width:400px;
+	height:40px;
+	margin-top:1px;
+	display:block;
+}
+.condiciones{
+	color:white;
+	font-size:1.1em;
+	margin-top:10px;
+}
+#singup{
+	height:30px;
+	width:90px;
+	margin-top:10px;
+	background-color:#B3FFB3;
+}
+#reset{
+	height:30px;
+	width:90px;
+	margin-top:10px;
+}
+/*------------------------------------ACCEDER------------------------------------*/
+#formulario2{
+	background-color:#71B271;
+	width:800px;
+	height:400px;
+	margin:30px auto;
+	text-align:center;	
+}
+#usuario{
+	width:400px;
+	height:40px;
+	display:block;
+	margin-top:30px;
+}
+#contraseña{
+	width:400px;
+	height:40px;
+	display:block;
+	margin-top:30px;
+}
+#remember_me{
+	color:white;
+	font-size:1.1em;
+	margin-top:10px;
+}
+.login{
+	height:30px;
+	width:410px;
+	margin-top:10px;
+	background-color:#B3FFB3;
+	font-size:1.5em;
+}
+/*------------------------------------ENCUESTA 1------------------------------------*/
+.subunos{
+	color:white;
+	font-size:2em;
+	text-align:center;
+	background-color:#1A1A1A;
+	display:block;
+	padding:10px 0;
+	margin:0 auto;
+}
+#encuesta1{
+	background-color:#71B271;
+	width:800px;
+	height:860px;
+	margin:30px auto;
+	text-align:center;
+}
+#experiencia{
+	width:400px;
+	height:40px;
+	margin-top:10px;
+}
+#mejorar{
+	width:400px;
+	height:100px;
+	margin-top:10px;
+}
+.letrabl{
+	color:#f4f4f4;
+}
+#rango{
+	width:400px;
+	color:red;
+	background-color:green;
+}
+/*------------------------------------ENCUESTA 2------------------------------------*/
+#contenedor_encuesta2{
+	height:2000px;
+}
+#encuesta2{
+	background-color:#71B271;
+	width:800px;
+	height:2900px;
+	margin:30px auto;
+	text-align:center;
+}
+.categoriavga{
+	margin:30px 18px;
+}
+.categoriavga table tr th{
+	background-color:#1A1A1A;
+	color:#71B271;
+	padding:5px;
+	
+}
+.bordevotar{
+	background-color:#f4f4f4;
+}
+/*-------------------------------GRACIAS-POR-VOTAR-------------------------------*/
+#contenedor_gracias{height:406px;}
+#gracisxvotar{
+	background-color:#71B271;
+	width:800px;
+	height:210px;
+	margin:30px auto;
+	text-align:center;
+}
+#gracias{
+	padding:30px 100px;
+	font-size:1.2em;
+}
+/*--------------------------------------PAGO--------------------------------------*/
+#secpagar{height:630px;}
+#pagarcuadr{
+	height:474px;
+	background-color:#71B271;
+	width:800px;
+	margin:30px auto;
+	text-align:center;
+}
+#contenido_p{
+	margin:20px 0;
+}
+#caja1_p{
+	width:577px;
+	margin:0 auto;
+}
+#caja1_p form table tr th{
+	background-color:#1A1A1A;
+	color:#71B271;
+	padding:5px;
+}
+#caja1_p form table tr td input{height:40px;width:330px;}
+#caja1_p form table tr td select{height:40px;width:100px;margin-right:230px;}
+#completarpago{
+	height:32px;
+	width:130px;
+	margin-top:10px;
+	background-color:#B3FFB3;
+}
+#cancelarpago{
+	display:inline-block;
+	height:26px;
+	width:130px;
+	padding-top:3px;
+	margin-top:10px;
+	background-color:#f4f4f4;
+	border:solid 1px black;
+	color:black;
+	text-decoration:none;
+	font-size:0.9em;
+}
+/*------------------------------------ALBUMES------------------------------------*/
+#contenedor_productos{
+	height:4100px;
+}
+#albumes{
+	background-color:#71B271;
+	height:3800px;
+	width:1000px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.album{
+	height:400px;
+	margin-bottom:10px;
+}
+.albumiz{
+	text-align:center;
+	width:500px;
+	height:400px;
+	float:left;
+}
+.albumiz img{
+	text-align:center;
+	height:20em;
+	margin-top:40px;
+}
+.infoalbumder{
+	width:500px;
+	height:400px;
+	float:right;
+	padding-top:30px;
+	padding-left:30px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+.infoalbumder table{
+	margin-bottom:20px;
+}
+.infoalbumder table tr td{
+	padding-left:10px;
+}
+.infoalbumder table tr th{
+	background-color:#1A1A1A;
+	color:#71B271;
+	padding:5px;
+}
+.precio{
+	display:inline-block;
+	background-color:#1A1A1A;
+	color:#71B271;
+	padding:5px 8px 5px 8px;
+	width:140px;
+	text-align:center;
+	font-size:1.3em;
+	border:1px solid #8f8f9d;
+}
+.comprar{
+	background-color:white;
+	width:170px;
+	
+}
+.comprar:hover{background-color:#1A1A1A;color:#f4f4f4;}
+.botonverde a{
+	text-decoration:none;
+	color:inherit;
+}
+.albumder{
+	text-align:center;
+	width:500px;
+	height:400px;
+	float:right;
+}
+.albumder img{
+	text-align:center;
+	height:20em;
+	margin-top:40px;
+}
+.infoalbumiz{
+	width:500px;
+	height:400px;
+	float:left;
+	padding-top:30px;
+	padding-left:100px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+.infoalbumiz table{
+	margin-bottom:20px;
+}
+.infoalbumiz table tr td{
+	padding-left:10px;
+}
+.infoalbumiz table tr th{
+	background-color:#1A1A1A;
+	color:#71B271;
+	padding:5px;
+}
+/*-----------------------------------PRODUCTOS-----------------------------------*/
+#contenedor_productosb{
+	height:10000px;
+}
+#productos{
+	background-color:#71B271;
+	height:2100px;
+	width:1000px;
+	margin:0 auto;
+	margin-top:50px;}
+.textoropa{
+	height:220px;
+	width:360px;
+	padding-top:10px;
+	padding-left:32px;
+	padding-right:32px;
+	background-color:#1A1A1A;
+	color:white;
+}
+#libros{
+	background-color:#71B271;
+	height:3329px;
+	width:1000px;
+	margin:0 auto;
+	margin-top:50px;
+}
+#juegos{
+	background-color:#71B271;
+	height:2100px;
+	width:1000px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+/*----------------------------------CONTACTANOS----------------------------------*/
+#contactanos{
+	background-color:#71B271;
+	width:800px;
+	height:450px;
+	margin:30px auto;
+	text-align:center;	
+}
+#text-contactanos{
+	color:white;
+	background-color:#1A1A1A;
+	text-align:center;
+	display:block;
+	padding:20px 25px;
+}
+.colormail{
+	color:#71B271;
+	font-weight:bold;
+}
+#mensaje{
+	margin-top:20px;
+	margin-left:30px;
+}
+#mensaje label{
+	background:black;
+	color:white;
+	display:inline;
+	padding:5px 10px;
+	width:200px;
+	margin-top:5px;
+}
+#cajitatel{
+	margin-top:10px;
+	margin-left:0;
+}
+.espacioescrit{height:23px;}
+#numero{width:375px;}
+#comentarios{
+	width:550px;
+	height:150px;
+	margin-top:10px;
+}
+#go{
+	background:#66C2D2;
+	display:block;
+	color:white;
+	margin-top:10px;
+	margin-left:410px;
+}
+/*------------------------------------FOOTER------------------------------------*/
+footer{
+	border-top:1px solid #5C975C;
+	height:200px;
+	clear:both;
+}
+#pie{
+	width:50%;
+	margin:0 auto;
+	padding-top:70px;
+	text-align:center;
+}
+footer #pie #pie1{
+	font-size:0.9em;
+}
+footer #pie #pie1 a{
+	color:#f4f4f4;
+	text-decoration:none;
+}
+footer #pie #pie2{
+	font-size:1.6em;
+}
+#pie2 ul{list-style:none;}
+#pie2 ul li img{width:30px;}
+footer #pie div ul li{
+	display:inline;
+	margin-right:10px;
+}
+footer #pie #pie3{
+	font-size:0.9em;
+	margin-top:10px;
+	color:#676767;
+}
